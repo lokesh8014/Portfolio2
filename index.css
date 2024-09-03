@@ -161,6 +161,42 @@ nav a {
     background: #007bff;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer .github {
+    position: absolute;
+    left: 0;
+    background: #4b8ed6;
+    color: #fff;
+
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    background: #4b8ed6;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s;
+    align-self: flex-start;
+}
+
+.button:hover {
+    background: #007bff;
+}
+
 
 #skills {
   background-color: #f8f9fa;
@@ -251,7 +287,7 @@ nav a {
     margin-bottom: 20px;
 }
 
-.btn {
+.button {
     display: inline-block;
     padding: 10px 15px;
     background: #007bff;
@@ -262,7 +298,7 @@ nav a {
     transition: background 0.3s;
 }
 
-.btn:hover {
+.button:hover {
     background: #007bff;
 }
 
@@ -314,7 +350,7 @@ nav a {
     resize: vertical;
 }
 
-.btn {
+.button {
     display: inline-block;
     padding: 10px 15px;
     background: #0772e4;
@@ -325,7 +361,7 @@ nav a {
     transition: background 0.3s;
 }
 
-.btn:hover {
+.button:hover {
     background: #38c4ee;
 }
 
